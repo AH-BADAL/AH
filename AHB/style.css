@@ -20,7 +20,6 @@ main{
 .main-div a{
   text-decoration: none;
   margin-right: 10px;
-  justify-content: space-around;
   padding: 10px;
   text-align: right;
   color: white;
@@ -51,12 +50,10 @@ main{
 .container-one{
   display: flex;
   justify-content: space-around;
-  background: #0B0F1D;
   color: white;
 }
 .content-one{
-border:1px solid black;
-width: 55%;
+ width: 55%;
 }
 .content-one h1{
   font-size: 45px;
@@ -384,7 +381,6 @@ border: 0.5px solid white;
  height: 400px;
   width: 400px;
   border:none;
-  background: transparent;
   background:#003366;
   border-radius: 10px;
 }
@@ -487,7 +483,7 @@ border: 0.5px solid white;
 .one-box img{
   height: 40px;
   width: 40px;
-  margin-top: -5%;
+  margin-top: -20px;
   border-radius: 10px;
 }
 .two-box{
@@ -545,7 +541,7 @@ border: 0.5px solid white;
   cursor: pointer;
 }
 .sent:hover{
-  width: 185px;
+  transition: all 0.3s ease;
 }
 
 footer{
